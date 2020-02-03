@@ -53,7 +53,7 @@ function IndexNavbar() {
             href="/index"
             title="qsudo solutions"
           >
-          <img alt="..." src={require("assets/img/qsudo_logo_4.png")} />
+          <img alt="..." src={require("assets/img/qsudo_logo_1.png")} />
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}

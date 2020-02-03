@@ -31,7 +31,7 @@ ReactDOM.render(
         path="/register-page"
         render={props => <RegisterPage {...props} />}
       />
-      <Redirect to="" />
+      <Redirect to="/index" />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
