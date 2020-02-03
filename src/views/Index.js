@@ -11,7 +11,6 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 // index sections
 import SectionAbout from "views/index-sections/SectionAbout.js";
 import SectionDownload from "views/index-sections/SectionDownload.js";
-import SectionExamples from "views/index-sections/SectionExamples.js";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -28,7 +27,6 @@ function Index() {
       <div className="main">
         <SectionAbout />
         <SectionDownload />
-        <SectionExamples />
         <DemoFooter />
       </div>
     </>
